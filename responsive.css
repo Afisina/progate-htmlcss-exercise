@@ -1,0 +1,64 @@
+@media (max-width: 670px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .top-wrapper h1 {
+    font-size: 50px;
+  }
+
+  .top-wrapper p {
+    font-size: 25px;
+  }
+
+  .container,
+  footer {
+    width: 670px;
+  }
+
+  .projects {
+    display: block;
+  }
+
+  .project-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .project-item p {
+    font-size: 20px;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .fa {
+    display: block;
+  }
+
+  .fa-navicon {
+    /* display: block; */
+  }
+
+  .header-logo {
+    padding-top: 20px;
+  }
+
+  .footer-list {
+    padding: 0px;
+  }
+
+  .footer-list li {
+    float: left;
+    padding: 15px 10px;
+  }
+
+  footer {
+    height: 60px;
+  }
+
+  .footer-logo {
+    padding: 15px 40px;
+  }
+}

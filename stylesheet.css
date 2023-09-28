@@ -1,0 +1,191 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+.container h1 {
+  margin: 0px;
+}
+
+header {
+  height: 90px;
+  background-color: #567189;
+  color: whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+li {
+  list-style: none;
+}
+
+.header-logo {
+  float: left;
+  padding: 0px 40px;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+
+.header-list li {
+  float: left;
+  padding: 20px 20px;
+}
+
+.top-wrapper {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.top-wrapper h1 {
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 0px;
+}
+
+.top-wrapper p {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.top-wrapper span {
+  color: #ff1e1e;
+}
+
+.top-wrapper img {
+  height: 150px;
+}
+
+.about-wrapper {
+  background-color: #d6e4e5;
+}
+
+.about-wrapper h1 {
+  margin: 0px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+}
+
+.project-item {
+  width: 30%;
+  float: left;
+}
+
+.project-item img {
+  width: 70%;
+}
+
+.message-wrapper {
+  background-color: #d6e4e5;
+}
+
+form {
+  padding: 10px;
+}
+
+footer {
+  color: whitesmoke;
+  height: 100px;
+  background-color: #567189;
+  opacity: 0.9;
+}
+
+.footer-logo {
+  float: left;
+  padding: 20px 40px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.footer-list {
+  float: right;
+  padding: 10px 40px;
+}
+
+.footer-list ul {
+  margin: auto 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-list li {
+  padding-bottom: 5px;
+}
+
+.fa {
+  display: none;
+}
+
+.fa-navicon {
+  font-size: 48px;
+  float: right;
+  padding: 20px;
+}
+
+.project-wrapper h1 {
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.message-wrapper h1 {
+  padding-bottom: 20px;
+}
+
+.message-wrapper input {
+  border: 0px;
+  height: 25px;
+  width: 500px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.message-wrapper textarea {
+  width: 500px;
+  height: 50px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.message-wrapper button {
+  width: 200px;
+  height: 25px;
+  background-color: #ffcac8;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 0px 5px #ff9e9e;
+  color: black;
+}
+
+button:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.about-wrapper,
+.project-wrapper,
+.message-wrapper {
+  padding: 30px;
+}
+
+.clear {
+  clear: left;
+}
