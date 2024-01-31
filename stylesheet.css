@@ -14,7 +14,7 @@ body {
 
 header {
   height: 90px;
-  background-color: #567189;
+  background-color: #3f3f3f;
   color: whitesmoke;
   position: fixed;
   top: 0;
@@ -58,7 +58,7 @@ li {
 }
 
 .top-wrapper span {
-  color: #ff1e1e;
+  color: #ffdf00;
 }
 
 .top-wrapper img {
@@ -66,7 +66,7 @@ li {
 }
 
 .about-wrapper {
-  background-color: #d6e4e5;
+  background-color: #cccccc;
 }
 
 .about-wrapper h1 {
@@ -88,7 +88,7 @@ li {
 }
 
 .message-wrapper {
-  background-color: #d6e4e5;
+  background-color: #cccccc;
 }
 
 form {
@@ -98,7 +98,7 @@ form {
 footer {
   color: whitesmoke;
   height: 100px;
-  background-color: #567189;
+  background-color: #3f3f3f;
   opacity: 0.9;
 }
 
@@ -165,12 +165,12 @@ footer {
 .message-wrapper button {
   width: 200px;
   height: 25px;
-  background-color: #ffcac8;
+  background-color: #ffdf00;
   border: none;
   border-radius: 5px;
   margin-bottom: 20px;
   cursor: pointer;
-  box-shadow: 0px 5px #ff9e9e;
+  box-shadow: 0px 5px #fcd12a;
   color: black;
 }
 
